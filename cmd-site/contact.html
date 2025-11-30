@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" />
+  <title>The Crisis of Migration Discourse (CMD)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- =============== HEADER / NAVBAR =============== -->
+  <header class="site-header">
+    <div class="nav-inner">
+      <div class="nav-left">
+        <a href="index.html" class="site-logo" aria-label="CMD home">
+          <img src="/images/logo.png" alt="Crisis of Migration Discourse logo" />
+        </a>
+        <div class="site-title-text">
+          <span class="cmd">CMD</span>
+          <span class="subtitle">Crisis of Migration Discourse</span>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+
+      <ul class="nav-links" id="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="nav-item-has-dropdown">
+          <a href="work-packages.html">Work Packages ▾</a>
+          <ul class="dropdown">
+            <li><a href="work-package-1.html">Work Package 1</a></li>
+            <li><a href="work-package-2.html">Work Package 2</a></li>
+            <li><a href="work-package-3.html">Work Package 3</a></li>
+            <li><a href="work-package-4.html">Work Package 4</a></li>
+          </ul>
+        </li>
+
+        <li><a href="news-events.html">News &amp; Events</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="multimedia.html">Multimedia</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="collaboratingparterns.html">Collaborating Research Partners</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- =============== PAGE CONTENT =============== -->
+
+
+
+  <main class="contact-main">
+  <section class="contact-wrapper">
+
+    <h1 class="contact-title">Contact Us</h1>
+    <p class="contact-text">
+      We’d be happy to hear from you regarding the project, research collaborations, or any enquiries.
+    </p>
+
+    <!-- Main Contact Button -->
+    <a href="mailto:team@thecrisisofmigration.co.uk" class="contact-button">
+      Email the CMD Project Team
+    </a>
+
+    <div class="contact-extra">
+      <h2>Other Contacts</h2>
+      <p>
+        For specific research or project-related enquiries:
+      </p>
+      <p class="email-item">
+        <strong>Prof. Roza Tsagarousianou:</strong><br>
+        <a href="mailto:roza.tsagarousianou@thecrisisofmigrationdiscourse.co.uk">
+          roza.tsagarousianou@thecrisisofmigrationdiscourse.co.uk
+        </a>
+      </p>
+    </div>
+
+    <div class="contact-extra">
+      <h2>Other Contacts</h2>
+      <p>
+        For specific research or project-related enquiries:
+      </p>
+      <p class="email-item">
+        <strong>Dr. Federica Mazzara:</strong><br>
+        <a href="mailto:federica.mazzara@thecrisisofmigrationdiscourse.co.uk">
+          federica.mazzara@thecrisisofmigrationdiscourse.co.uk
+        </a>
+      </p>
+    </div>
+    
+
+    <!-- Optional Feedback Form -->
+    <div class="feedback-box">
+      <h2>Quick Feedback Form</h2>
+      <p class="feedback-text">Share any thoughts or suggestions.</p>
+
+      <!-- Using FormSubmit (no backend needed) -->
+      <form action="https://formsubmit.co/team@thecrisisofmigrationdiscourse.co.uk" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+
+        <input
+          type="text"
+          name="name"
+          placeholder="Your name"
+          class="feedback-input"
+          required
+        >
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Your email"
+          class="feedback-input"
+          required
+        >
+
+        <textarea
+          name="message"
+          placeholder="Your message..."
+          class="feedback-textarea"
+          required
+        ></textarea>
+
+        <button type="submit" class="feedback-submit">Send Feedback</button>
+      </form>
+    </div>
+
+  </section>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" />
+  <title>The Crisis of Migration Discourse (CMD)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- =============== HEADER / NAVBAR =============== -->
+  <header class="site-header">
+    <div class="nav-inner">
+      <div class="nav-left">
+        <a href="index.html" class="site-logo" aria-label="CMD home">
+          <img src="/images/logo.png" alt="Crisis of Migration Discourse logo" />
+        </a>
+        <div class="site-title-text">
+          <span class="cmd">CMD</span>
+          <span class="subtitle">Crisis of Migration Discourse</span>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+
+      <ul class="nav-links" id="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="nav-item-has-dropdown">
+          <a href="work-packages.html">Work Packages ▾</a>
+          <ul class="dropdown">
+            <li><a href="work-package-1.html">Work Package 1</a></li>
+            <li><a href="work-package-2.html">Work Package 2</a></li>
+            <li><a href="work-package-3.html">Work Package 3</a></li>
+            <li><a href="work-package-4.html">Work Package 4</a></li>
+          </ul>
+        </li>
+
+        <li><a href="news-events.html">News &amp; Events</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="multimedia.html">Multimedia</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="collaboratingparterns.html">Collaborating Research Partners</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- =============== PAGE CONTENT =============== -->
+  <!-- =============== PAGE CONTENT =============== -->
+<main class="page-main">
+  <div class="container container-wide">
+    <h1 class="page-title">Collaborating Research Partners</h1>
+    <p class="page-intro">
+      CMD works with a network of organisations who bring lived experience,
+      advocacy and specialist expertise to the project.
+    </p>
+
+    <section class="collab-partners">
+      <div class="collab-grid">
+
+        <a
+          href="https://heranet.info/"
+          class="collab-card"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="collab-logo-wrap">
+            <img src="/images/university logos/partnerlogo/hera.png" alt="Migrant Voice logo" />
+          </div>
+          <h2 class="collab-name">HERA</h2>
+          <p class="partner-tagline">
+              Humanities in European Research Area
+            </p>
+        </a>
+
+        <a
+          href="https://chanse.org/"
+          class="collab-card"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="collab-logo-wrap">
+            <img src="/images/university logos/partnerlogo/chanse.jpg" alt="Migrant Voice logo" />
+          </div>
+          <h2 class="collab-name">CHANSE</h2>
+          <p class="partner-tagline">
+              Collaboration of Humanities and Social Sciences in Europe
+            </p>
+        </a>
+
+        <!-- ITASTRA -->
+        <a
+          href="https://www.unipa.it/ITASTRA/"
+          class="collab-card"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="collab-logo-wrap">
+            <img src="/images/university logos/partnerlogo/itastra.jpg" alt="ITASTRA logo" />
+          </div>
+          <h2 class="collab-name">ITASTRA</h2>
+           <p class="partner-tagline">
+              Language, culture, and academic research on migration discourse.
+            </p>
+        </a>
+
+        <!-- COSPE -->
+        <a
+          href="https://www.cospe.org/"
+          class="collab-card"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="collab-logo-wrap">
+            <img src="/images/university logos/partnerlogo/copse.jpg" alt="COSPE logo" />
+          </div>
+          <h2 class="collab-name">COSPE</h2>
+          <p class="partner-tagline">
+              Advocacy, media, and social justice initiatives across Europe and beyond.
+            </p>
+        </a>
+
+        <!-- Migrant Voice -->
+        <a
+          href="https://www.migrantvoice.org/"
+          class="collab-card"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="collab-logo-wrap">
+            <img src="/images/university logos/partnerlogo/migrantvoice.png" alt="Migrant Voice logo" />
+          </div>
+          <h2 class="collab-name">Migrant Voice</h2>
+          <p class="partner-tagline">
+              Empowering migrants to tell their stories and shape public debate.
+            </p>
+        </a>
+
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+    <p>
+      The Crisis of Migration Discourse (CMD) is funded by CHANSE – Collaboration
+      of Humanities and Social Sciences in Europe (HERA/CHANSE – HORIZON 2020).
+    </p>
+  </footer>
+<script>
+  // Simple mobile nav toggle
+  const navToggle = document.querySelector(".nav-toggle");
+  const navLinks = document.getElementById("main-nav");
+
+  if (navToggle && navLinks) {
+    navToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+    });
+  }
+</script>
+</body>
+</html>

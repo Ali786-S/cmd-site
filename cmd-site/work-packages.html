@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" />
+  <title>The Crisis of Migration Discourse (CMD)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- =============== HEADER / NAVBAR =============== -->
+  <header class="site-header">
+    <div class="nav-inner">
+      <div class="nav-left">
+        <a href="index.html" class="site-logo" aria-label="CMD home">
+          <img src="/images/logo.png" alt="Crisis of Migration Discourse logo" />
+        </a>
+        <div class="site-title-text">
+          <span class="cmd">CMD</span>
+          <span class="subtitle">Crisis of Migration Discourse</span>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+
+      <ul class="nav-links" id="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="nav-item-has-dropdown">
+          <a href="work-packages.html">Work Packages ▾</a>
+          <ul class="dropdown">
+            <li><a href="work-package-1.html">Work Package 1</a></li>
+            <li><a href="work-package-2.html">Work Package 2</a></li>
+            <li><a href="work-package-3.html">Work Package 3</a></li>
+            <li><a href="work-package-4.html">Work Package 4</a></li>
+          </ul>
+        </li>
+
+        <li><a href="news-events.html">News &amp; Events</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="multimedia.html">Multimedia</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="collaboratingparterns.html">Collaborating Research Partners</a></li>
+        
+      </ul>
+    </div>
+  </header>
+
+  <!-- =============== PAGE CONTENT =============== -->
+   <!-- =============== PAGE CONTENT =============== -->
+    <main class="page-main workpackages-page">
+      <div class="container">
+        <h1 class="page-title">Work Packages</h1>
+        <p class="page-intro">
+          Explore the project timeline and click on a work package to learn more.
+        </p>
+
+        <!-- Timeline -->
+        <section class="timeline-section">
+          <div class="timeline-line"></div>
+
+          <!-- WP1 -->
+          <article class="timeline-item timeline-item-left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-label">Months 6–15</span>
+              <h2 class="timeline-title">
+                Work Package 1 · Construction of Migration Crisis Discourses
+              </h2>
+              <p class="timeline-text">
+                Corpus-driven and critical discourse analysis of institutional glossaries, 
+                statistical categories and public narratives that construct the current 
+                ‘migration crisis’.
+              </p>
+              <a href="work-package-1.html" class="timeline-link">
+                View Work Package 1
+              </a>
+            </div>
+          </article>
+
+          <!-- WP2 -->
+          <article class="timeline-item timeline-item-right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-label">Months 16–26</span>
+              <h2 class="timeline-title">
+                Work Package 2 · Deconstruction of Migration Crisis Discourse
+              </h2>
+              <p class="timeline-text">
+                Participatory action research workshops with illegalised migrants to 
+                challenge hegemonic narratives and co-create new vocabularies and stories.
+              </p>
+              <a href="work-package-2.html" class="timeline-link">
+                View Work Package 2
+              </a>
+            </div>
+          </article>
+
+          <!-- WP3 -->
+          <article class="timeline-item timeline-item-left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-label">Months 27–32</span>
+              <h2 class="timeline-title">
+                Work Package 3 · Reconstruction of Just Migration Discourse
+              </h2>
+              <p class="timeline-text">
+                Intercultural competence workshops with journalists, policymakers and 
+                educators using the Toolkit for Action to test alternative narratives 
+                in institutional contexts.
+              </p>
+              <a href="work-package-3.html" class="timeline-link">
+                View Work Package 3
+              </a>
+            </div>
+          </article>
+
+          <!-- WP4 -->
+          <article class="timeline-item timeline-item-right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-label">Months 30–36</span>
+              <h2 class="timeline-title">
+                Work Package 4 · Toolkit Refinement & Training Programme
+              </h2>
+              <p class="timeline-text">
+                Refinement of the Toolkit for Action and development of an ongoing 
+                training programme, online workshops and learning resources for 
+                wider dissemination.
+              </p>
+              <a href="work-package-4.html" class="timeline-link">
+                View Work Package 4
+              </a>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+
+<footer class="site-footer">
+    <p>
+      The Crisis of Migration Discourse (CMD) is funded by CHANSE – Collaboration
+      of Humanities and Social Sciences in Europe (HERA/CHANSE – HORIZON 2020).
+    </p>
+  </footer>  
+
+    
+<script>
+  // Simple mobile nav toggle
+  const navToggle = document.querySelector(".nav-toggle");
+  const navLinks = document.getElementById("main-nav");
+
+  if (navToggle && navLinks) {
+    navToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+    });
+  }
+</script>
+</body>
+</html>
