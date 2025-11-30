@@ -23,15 +23,13 @@ All assets are organised clearly using a conventional front-end structure for re
 
 Technologies Used
 
-HTML5 is used for semantic page structure and content. CSS3 provides custom styling, layout, and responsive design. JavaScript is used selectively for client-side interactivity where required.
+HTML5 is used for semantic page structure and content. CSS provides custom styling, layout, and responsive design. JavaScript is used selectively for client-side interactivity where required.
 
 No external frameworks are used, ensuring transparency in the codebase and ease of future extension.
 
 Deployment
 
-The site is hosted using GitHub Pages and is publicly accessible at:
-
-https://ali786-s.github.io/cmd-site/
+The site is hosted using a hosting platform where the domain was also bought from 
 
 Deployment is handled directly from the main branch, allowing updates to be published with minimal overhead.
 
