@@ -226,7 +226,7 @@ header.site-header {
   text-align: center;
   color: #f49b17;
   padding: 80px 16px 64px;
-  /* use your local hero image here */
+  /* use hero image here */
   background-image:
     url("/images/hero-banner.jpg");
   background-size: cover;
